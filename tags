@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AmazonBook	lib/amazon_book.rb	/^class AmazonBook < Book$/;"	c
+Book	lib/book.rb	/^class Book$/;"	c
+BooksController	lib/books_controller.rb	/^class BooksController$/;"	c
+ClassMethods	lib/jt_record.rb	/^  module ClassMethods$/;"	m	class:JTRecord
+IdGenerator	lib/id_generator.rb	/^class IdGenerator$/;"	c
+JTRecord	lib/jt_record.rb	/^module JTRecord$/;"	m
+Monkey	lib/monkey.rb	/^module Monkey$/;"	m
+User	lib/user.rb	/^class User$/;"	c
+accessible_attrs	lib/jt_record.rb	/^    def accessible_attrs$/;"	f	class:JTRecord.ClassMethods
+add_book	lib/user.rb	/^  def add_book(book)$/;"	f	class:User
+amazon_book.rb	lib/amazon_book.rb	1;"	F
+attr_accessible	lib/jt_record.rb	/^    def attr_accessible(*keys)$/;"	f	class:JTRecord.ClassMethods
+attributes	lib/amazon_book.rb	/^  def attributes$/;"	f	class:AmazonBook
+book.rb	lib/book.rb	1;"	F
+books_controller.rb	lib/books_controller.rb	1;"	F
+books_controller_spec.rb	spec/lib/books_controller_spec.rb	1;"	F
+create	lib/books_controller.rb	/^  def create$/;"	f	class:BooksController
+create	lib/books_controller.rb	/^  def self.create(params={}, *args)$/;"	F	class:BooksController
+create	lib/jt_record.rb	/^    def create(attrs={}, raise_on_failure=false)$/;"	f	class:JTRecord.ClassMethods
+create!	lib/jt_record.rb	/^    def create!(attrs={})$/;"	f	class:JTRecord.ClassMethods
+find_by_asin	lib/book.rb	/^  def self.find_by_asin(asin)$/;"	F	class:Book
+generator	lib/jt_record.rb	/^    def generator$/;"	f	class:JTRecord.ClassMethods
+has_book?	lib/user.rb	/^  def has_book? asin$/;"	f	class:User
+id_generator.rb	lib/id_generator.rb	1;"	F
+included	lib/jt_record.rb	/^  def self.included(klass)$/;"	F	class:JTRecord
+initialize	lib/book.rb	/^  def initialize(attrs={})$/;"	f	class:Book
+initialize	lib/books_controller.rb	/^  def initialize( params={:id => 1}, current_user_id=nil )$/;"	f	class:BooksController
+initialize	lib/id_generator.rb	/^  def initialize(count=nil)$/;"	f	class:IdGenerator
+initialize	lib/user.rb	/^  def initialize(attrs={})$/;"	f	class:User
+jt_record.rb	lib/jt_record.rb	1;"	F
+monkey.rb	lib/monkey.rb	1;"	F
+next	lib/id_generator.rb	/^  def next$/;"	f	class:IdGenerator
+patch	lib/monkey.rb	/^  def self.patch$/;"	F	class:Monkey
+post	spec/lib/books_controller_spec.rb	/^  def post method_name, params={}$/;"	f
+present?	lib/monkey.rb	/^      def present?$/;"	f	class:Monkey.patch
+repository	lib/jt_record.rb	/^    def repository$/;"	f	class:JTRecord.ClassMethods
+save	lib/jt_record.rb	/^  def save$/;"	f	class:JTRecord
+set_attributes	lib/jt_record.rb	/^  def set_attributes( attrs={} )$/;"	f	class:JTRecord
+store	lib/jt_record.rb	/^  def store(key, value)$/;"	f	class:JTRecord
+update_attributes	lib/jt_record.rb	/^  def update_attributes( attrs={} )$/;"	f	class:JTRecord
+user	spec/lib/books_controller_spec.rb	/^  def user$/;"	f
+user.rb	lib/user.rb	1;"	F
+where	lib/jt_record.rb	/^    def where(conditionals={})$/;"	f	class:JTRecord.ClassMethods
